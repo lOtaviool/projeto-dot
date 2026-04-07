@@ -14,14 +14,17 @@ Breakpoint Principal: Otimizado para telas de até 768px (Mobile e Tablets).
 1. Abrir diretamente
 Basta localizar o arquivo index.html na pasta do projeto e abri-lo com qualquer navegador (Chrome, Firefox, Edge).
 
-2. Usando o Node.js 
+2. Usando o Node.js
 No terminal, dentro da pasta do projeto, execute: "  npx serve . "
 O projeto estará disponível em http://localhost:3000 (ou na porta indicada no terminal).
 
 # Estrutura do Repositório
 index.html: Contém a estrutura de marcação de todos os componentes.
+
 css/: Pasta contendo a lógica de estilos.
+
 js/: Pasta contendo a lógica de componentes .
+
 img/: Pasta destinada aos ícones e ativos do projeto.
 
 # Notas de Versão
