@@ -1,4 +1,4 @@
-# Atividades Interativas & Player de Áudio
+# Projeto DOT Digital Group
 Este projeto apresenta um Teste técnico proposto pela empresa DOT Digital Group na vaga de Fornecedor Desenvolvedor Front-End
 
 # Ferramentas
