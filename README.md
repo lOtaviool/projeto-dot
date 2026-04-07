@@ -26,4 +26,5 @@ img/: Pasta destinada aos ícones e ativos do projeto.
 
 # Notas de Versão
 Fidelidade Visual:https://www.figma.com/design/GeyF7bDNU7hFjfYBO6uJQn/EdTech---Teste-de-Frontend?node-id=1-217&t=VEi1SBdauUiIVZED-1
+
 Executor: Luis Otávio Oliveira
