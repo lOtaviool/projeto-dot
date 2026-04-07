@@ -1,3 +1,8 @@
+iframe {
+    border-radius: 8px;
+    border: none;
+}
+
 @media (max-width: 768px) {
     .main-video {
         width: 100% !important;

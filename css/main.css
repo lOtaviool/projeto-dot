@@ -25,6 +25,6 @@ html, body {
 
 @media (max-width: 768px) {
     .main {
-        padding: 8px;
+        padding: 20px;
     }
 }
