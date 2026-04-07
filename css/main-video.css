@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .main-video {
+        width: 100% !important;
+    }
+
+    iframe {
+        width: 100% !important;
+    }
+}

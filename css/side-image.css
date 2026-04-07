@@ -1,0 +1,42 @@
+.side-image{
+    gap: 32px;
+    opacity: 1;
+    border-radius: 8px;
+    border-width: 1px;
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.side-text{
+    width: 431px;
+    height: 328px;
+    gap: 16px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-text p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #5C6B48;
+}
+
+@media (max-width: 768px) {
+    .side-image {
+        width: 100%;
+        max-width: auto;
+    }
+
+    .side-image img {
+        width: 300px;
+        height: auto;
+    }
+}

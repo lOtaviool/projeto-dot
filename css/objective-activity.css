@@ -1,0 +1,93 @@
+/* Reutilizando a base anterior e adicionando: */
+
+.icon-container-objetiva {
+  background: #76B9001A;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.alternativas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.opcao {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+/* Esconde o radio original */
+.opcao input {
+  position: absolute;
+  opacity: 0;
+}
+
+.custom-radio {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #e2e8f0;
+  border-radius: 4px; /* Quadrado arredondado como na imagem */
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.opcao p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #334155;
+}
+
+/* ESTADO SELECIONADO */
+.opcao:has(input:checked) {
+  background-color: #0c0a09; /* Preto quase puro */
+  border-color: #0c0a09;
+}
+
+.opcao:has(input:checked) p {
+  color: #ffffff;
+}
+
+.opcao input:checked + .custom-radio {
+  background-color: white;
+  border-color: white;
+}
+
+/* Checkmark dentro do quadrado branco quando selecionado */
+.opcao input:checked + .custom-radio::after {
+  content: "✓";
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Feedback Amarelo (Erro) */
+.feedback-container.erro {
+  background-color: #fef9c3;
+  border: 1px solid #fef08a;
+}
+
+.feedback-container.erro h3 {
+  color: #854d0e;
+}
+
+.feedback-container.erro p {
+  color: #854d0e;
+}
+
+/* Borda roxa interna que aparece na sua imagem de erro */
+.msg-interna {
+  border: 2px solid #a855f7;
+  padding: 10px;
+  margin-top: 10px !important;
+}

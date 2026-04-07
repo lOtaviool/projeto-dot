@@ -1,0 +1,17 @@
+.destaque {
+  max-width: 784px;
+  margin: 0 auto;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.destaque span {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 29.25px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
